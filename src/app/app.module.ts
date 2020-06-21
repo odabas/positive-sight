@@ -12,6 +12,7 @@ import { appRoutes } from "src/routes";
 import { PieChartComponent } from "./charts/pie-chart/pie-chart.component";
 import { LineChartComponent } from "./charts/line-chart/line-chart.component";
 import { BarChartComponent } from "./charts/bar-chart/bar-chart.component";
+import { ServerComponent } from "./server/server.component";
 import { ChartsModule } from "ng2-charts";
 
 @NgModule({
@@ -25,6 +26,8 @@ import { ChartsModule } from "ng2-charts";
     PieChartComponent,
     LineChartComponent,
     BarChartComponent,
+    ServerComponent,
+    ServerComponent,
   ],
   imports: [
     BrowserModule,
