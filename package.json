@@ -16,6 +16,7 @@
     "@angular/compiler": "~8.2.4",
     "@angular/core": "~8.2.4",
     "@angular/forms": "~8.2.4",
+    "@angular/http": "^7.2.16",
     "@angular/platform-browser": "~8.2.4",
     "@angular/platform-browser-dynamic": "~8.2.4",
     "@angular/router": "~8.2.4",
@@ -25,6 +26,7 @@
     "ng2-charts": "^1.6.0",
     "popper.js": "^1.11.0",
     "rxjs": "~6.4.0",
+    "rxjs-compat": "^6.5.5",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },

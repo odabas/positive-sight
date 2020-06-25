@@ -14,6 +14,10 @@ import { LineChartComponent } from "./charts/line-chart/line-chart.component";
 import { BarChartComponent } from "./charts/bar-chart/bar-chart.component";
 import { ServerComponent } from "./server/server.component";
 import { ChartsModule } from "ng2-charts";
+import { PaginationComponent } from "./pagination/pagination.component";
+import { HttpClientModule } from "@angular/common/http";
+import { HttpModule } from "@angular/http";
+import { SalesDataService } from "./services/sales-data.service";
 
 @NgModule({
   declarations: [
@@ -28,14 +32,17 @@ import { ChartsModule } from "ng2-charts";
     BarChartComponent,
     ServerComponent,
     ServerComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     ChartsModule,
+    HttpModule,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [SalesDataService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
